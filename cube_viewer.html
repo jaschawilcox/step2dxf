@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>3DOM Blue Cube</title>
+    <script type="text/javascript" src="https://www.x3dom.org/download/x3dom.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.x3dom.org/download/x3dom.css">
+    <style>
+        body { margin: 0; overflow: hidden; }
+        x3d { display: block; margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <h1>Hello, X3DOM!</h1>
+    <p>
+        This is my first HTML page with a 3D cube.
+    </p>
+    <x3d width="500px" height="400px">
+        <scene>
+            <shape>
+                <appearance>
+                    <material diffuseColor="0 0 1"></material>
+                </appearance>
+                <box></box>
+            </shape>
+        </scene>
+    </x3d>
+</body>
+</html>
